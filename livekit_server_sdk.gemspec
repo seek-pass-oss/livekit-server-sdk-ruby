@@ -27,7 +27,7 @@ Gem::Specification.new do |spec|
   spec.require_paths = ["lib"]
 
   spec.add_dependency "google-protobuf", ">= 3.21.0", "< 5.0"
-  spec.add_dependency "jwt", ">= 2.2.3", "< 3.0"
+  spec.add_dependency "jwt", ">= 2.2.3", "< 4.0"
   # workaround for twirp 1.10.0 missing it
   spec.add_dependency 'rack', '>= 2.2.3'
   spec.add_dependency "twirp", ">= 1.10.0", "< 2.0"
